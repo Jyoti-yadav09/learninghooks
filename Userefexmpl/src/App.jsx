@@ -1,6 +1,7 @@
 import ChangeColor from "./components/Changecolor";
 import InputFocus from "./components/InputFocus";
 import ShowHideText from "./components/ShowHideText";
+import Timer from "./components/Timer";
  const App=()=>
  {
    return(
@@ -8,6 +9,7 @@ import ShowHideText from "./components/ShowHideText";
      <InputFocus/>
      <ChangeColor/>
      <ShowHideText/>
+     <Timer/>
     </>
    )
  }
