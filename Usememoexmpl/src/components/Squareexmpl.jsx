@@ -10,9 +10,9 @@ const Squareexmpl = () => {
 
   return (
     <div>
-      <h2>Squared:{squared}</h2>
-      <button onClick={()=>setNumber(number+1)}>Increase Number</button>
-      <button onClick={()=>setCount(count+1)}>Increase Count({count})</button>
+      <h2 className=' text-2xl text-red-600'>Squared:{squared}</h2>
+      <button onClick={()=>setNumber(number+1)} className='text-xl pr-7'>Increase Number</button>
+      <button onClick={()=>setCount(count+1)} className='text-xl'>Increase Count({count})</button>
     </div>
   );
 }
