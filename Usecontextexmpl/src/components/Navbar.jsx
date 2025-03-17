@@ -1,9 +1,11 @@
 import {useContext} from 'react';
 import  { AuthContext } from './AuthProvider';
+
+
 const Navbar = () => {
     const {isLoggedIn, login, logout}= useContext(AuthContext);
   return (
-    <nav>
+    <nav className="bg-red-400 border-amber-300 border-double">
       <h1>My App</h1>
       {isLoggedIn ? (
         <button onClick={logout}>Logout</button>
